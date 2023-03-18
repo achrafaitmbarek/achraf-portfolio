@@ -1,0 +1,24 @@
+.Nav-container{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px;
+    height: 100px;
+    .link>ul {
+      display: flex;
+      flex-direction: row;
+    }
+    li{
+        padding: 0px 10px;
+        font-size: 1.2rem;
+    }
+    li:hover{
+        color: #64ffda;
+    }
+    .logo{
+        width: 150px;
+        transform: scale(3);
+        max-width: 100%;
+    }
+}

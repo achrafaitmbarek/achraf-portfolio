@@ -1,0 +1,10 @@
+.hero-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .hero-title{
+        color: #64ffda;
+        font-family: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
+    }
+}
