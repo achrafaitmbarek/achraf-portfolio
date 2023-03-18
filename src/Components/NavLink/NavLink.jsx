@@ -7,7 +7,7 @@ function NavLink() {
     <FaMagento className='logo'/>
     <div className="link">
         <ul>
-            <li><a href="#AboutMe">About Me</a></li>
+            <li><a href="#AboutMe">About</a></li>
             <li><a href="#Stack">Stack</a></li>
             <li><a href="#Workd">Work</a></li>
             <li><a href="#Contact">Contact</a></li>
