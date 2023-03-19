@@ -11,6 +11,7 @@ function NavLink() {
             <li><a href="#Stack">Stack</a></li>
             <li><a href="#Workd">Work</a></li>
             <li><a href="#Contact">Contact</a></li>
+            <li><a href="#resume" className="resume-button">Resume</a></li>
         </ul>
     </div>
   </div>
