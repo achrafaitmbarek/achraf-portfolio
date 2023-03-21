@@ -9,9 +9,10 @@
       display: flex;
       flex-direction: row;
     }
-    li{
+    li a{
         padding: 0px 15px;
         font-size: 1.2rem;
+        font-family: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
     &:hover{
         color: #64ffda;
     }

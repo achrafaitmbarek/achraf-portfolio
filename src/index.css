@@ -2,6 +2,13 @@
   margin: 0;
   padding: 0;
 }
+*, ::before, ::after {
+  box-sizing: inherit;
+}
+*::selection {
+    background: #2335547d;
+    color: #ccd6f6;
+}
 body {
   box-sizing: border-box;
   font-family: 'Open Sans', sans-serif;
@@ -19,8 +26,8 @@ a{
   text-decoration: none;
   color: inherit;
   transition: color 0.3s ease-in-out;
+  color: #ccd6f6;
 }
-
 ul{
   list-style: none;
 }

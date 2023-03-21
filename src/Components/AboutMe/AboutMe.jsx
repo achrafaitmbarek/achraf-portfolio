@@ -3,7 +3,7 @@ import './About.style.scss';
 
 function AboutMe() {
   return <section className='about-section'>
-    <h1>helllooo</h1>
+    {/* <h1>o</h1> */}
   </section>
 
 };

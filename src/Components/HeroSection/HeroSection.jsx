@@ -9,7 +9,7 @@ function HeroSection() {
                 <h2 className="hero-sub">{item.subtitle}</h2>
                 <h3 className='hero-work'>{item.work}</h3>
                 <p className="hero-description">{item.description}</p>
-                <a href={item.github}className='check-github-btn'>View Github !</a>
+                <a href={item.github}  target='_blank' rel="noreferrer" className='check-github-btn'>View Github !</a>
         </section>
                
     })

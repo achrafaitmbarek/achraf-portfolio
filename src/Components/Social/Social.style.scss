@@ -1,0 +1,49 @@
+.social-container
+{.right-box ,.left-box{
+    display: flex;
+    flex-direction: column;
+    position: fixed;  
+    bottom: 0;
+    ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+         li{
+            list-style: none;
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+            padding: 4px 0px 4px;
+            :hover{
+                color: #64ffda;
+            }
+         } 
+    }
+}
+.right-box{
+    right:0;
+    margin-right: 4rem;
+}
+.left-box{
+    left:0;
+    margin-left: 4rem;
+} 
+.vertical-border{
+    height: 7rem;
+    width: 0px;
+    border-left:0.2rem solid #a8b2d1;
+    border-radius: 0.5rem;
+    margin-left: 0.6rem;
+}
+.right-box ul li{
+    writing-mode: vertical-lr;
+    font-size:1rem;
+    letter-spacing: 0.2rem;
+    line-height: 1.4;
+    font-family: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
+}
+
+li:hover{
+    transform: translateY(-8px);
+    transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
+}}
+
